@@ -35,7 +35,7 @@ f_paragraph: >-
   embracing its dynamic nature and fostering a sustainable relationship between
   architecture and the coastal ecosystem.
 f_order: 5
-layout: '[project].html'
+layout: https://vinciwong.com/project/library-of-surveillance/
 tags: project
 ---
 
