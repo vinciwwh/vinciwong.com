@@ -146,22 +146,22 @@
             </div>
           </a>
           <div class="c-link_bottom">
-            <h3 r-prevnext-next-text="1" class="c-text-2">{{ texts.-6d5fea1e }}</h3>
+            <h3 bind="05ceb5ca-f11f-5e7c-8227-130fdf7bc8de" r-prevnext-next-text="1" class="c-text-2">Heading</h3>
           </div>
         </div>
       </div>
     </section>
-    {%- assign collection = collections.project | sort: "-created-on" -%}<div class="collection-list-wrapper-5 w-dyn-list">
-      {%- unless collection.length == 0 -%}<div r-prevnext-source="1" role="list" class="w-dyn-items">
-        {%- for item in collection -%}<div role="listitem" class="w-dyn-item">
-          <a href="{{ item.url }}" class="w-inline-block">
-            <div class="">{{ item.data.title }}</div><img loading="lazy" src="" alt="">
-          </a>
-        </div>{%- endfor -%}
-      </div>{%- endunless -%}
-      {%- if collection.length == 0 -%}<div class="w-dyn-empty">
-        <div>{{ texts.3d503d2b }}</div>
-      </div>{%- endif -%}
+    <div bind="d4b8041f-fa56-18e5-b64f-da91ec8c3ca5" class="collection-list-wrapper-5 w-dyn-list">
+      <div bind="d4b8041f-fa56-18e5-b64f-da91ec8c3ca6" r-prevnext-source="1" role="list" class="w-dyn-items">
+        <div bind="d4b8041f-fa56-18e5-b64f-da91ec8c3ca7" role="listitem" class="w-dyn-item">
+          <a bind="43ce0dec-5956-0c24-02f8-6fc09cd23da4" href="#" class="w-inline-block">
+            <div sym-bind="{&quot;children&quot;:{&quot;type&quot;:&quot;Call&quot;,&quot;val&quot;:{&quot;fun&quot;:{&quot;type&quot;:&quot;Variable&quot;,&quot;val&quot;:[&quot;DynamoGateway&quot;,&quot;dynamoPlainTextToListOfElements&quot;]},&quot;arg&quot;:{&quot;type&quot;:&quot;Select&quot;,&quot;val&quot;:{&quot;from&quot;:{&quot;type&quot;:&quot;Variable&quot;,&quot;val&quot;:&quot;Dynamo&quot;},&quot;prop&quot;:&quot;name&quot;}}}}}" class="w-dyn-bind-empty"></div><img loading="lazy" src="" alt="">
+</a>
+        </div>
+      </div>
+      <div bind="d4b8041f-fa56-18e5-b64f-da91ec8c3ca8" class="w-dyn-empty">
+        <div>No items found.</div>
+      </div>
     </div>
   </section>
   <script src="/assets/external/jquery-3.5.1.min.dc5e7f18c8.js" type="text/javascript" crossorigin="anonymous"></script>
