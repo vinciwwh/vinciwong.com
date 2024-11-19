@@ -44,5 +44,6 @@ f_masterprize: https://architectureprize.com/winners/winner.php?id=7155
 layout: '[project].html'
 tags: project
 ---
-
+[Previous Project](/project/reminsicene)
+[Next Project](/project/the-blob/)
 
