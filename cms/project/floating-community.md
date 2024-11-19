@@ -38,4 +38,5 @@ layout: '[project].html'
 tags: project
 ---
 
+[Previous Project](vinciwong.com/project/transition/.html)
 
