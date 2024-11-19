@@ -38,5 +38,6 @@ layout: '[project].html'
 tags: project
 ---
 
-[Previous Project](vinciwong.com/project/transition/.html)
+[Previous Project](/project/transition)
+[Next Project](/project/tai-o-pavillion)
 
