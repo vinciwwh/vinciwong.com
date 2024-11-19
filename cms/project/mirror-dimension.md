@@ -41,5 +41,8 @@ f_paragraph1: Launch Video
 layout: '[project].html'
 tags: project
 ---
+[Previous Project](/project/tai-o-pavillion)
+[Next Project](/project/reminsicene/)
+
 
 
