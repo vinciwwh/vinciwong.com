@@ -8,6 +8,13 @@
  */
 
 (() => {
+  var url = window.location.href;
+  var array = url.split('/');
+  var lastSegmentOfUrl = array[array.length-1];
+  var reg = /\d+/;
+  var currentPageID = lastSegmentOfUrl.match(r);
+  var previousPageID = currentPageID - 1;
+  var nextPageID = currentPageID + 1;
   var __create = Object.create;
   var __defProp = Object.defineProperty;
   var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
