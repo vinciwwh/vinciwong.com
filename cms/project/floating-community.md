@@ -36,8 +36,6 @@ f_paragraph: >-
 f_order: 5
 layout: '[project].html'
 tags: project
-[Previous_Project](vinciwong.com/project/transition/.html)
-[Next_Project](vinciwong.com/project/transition/.html)
 ---
 
 
