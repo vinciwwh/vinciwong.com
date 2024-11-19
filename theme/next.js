@@ -1,12 +1,12 @@
  $( document ).ready(function() {
     var caseList = [
-    'floating-community.md',
-    'library-of-surveillance.md',
-    'mirror-dimension.md',
-    'reminsicene.md',
-'tai-o-pavillion.md',
-'the-blob.md',
-'transition.md',
+    'vinciwong.com/project/floating-community.html',
+    'vinciwong.com/project/library-of-surveillance.html',
+    'vinciwong.com/project/mirror-dimension.html',
+    'vinciwong.com/project/reminsicene.html',
+'vinciwong.com/project/tai-o-pavillion.html',
+'vinciwong.com/project/the-blob.html',
+'vinciwong.com/project/transition.html',
 ];
 
     current=$(location).attr('pathname').substr($(location).attr('pathname').lastIndexOf("/")+1); // get current page: just last part - page name and extension
